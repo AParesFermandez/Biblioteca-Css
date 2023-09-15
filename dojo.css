@@ -1,0 +1,103 @@
+/* CSS reset */
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+    
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Estilos para los botones */
+.btn {
+  background-color: #ff66b2; /* Rosado */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #66b2ff; /* Celeste al pasar el mouse */
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #ff66b2; /* Borde rosado */
+  color: #ff66b2; /* Texto rosado */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: #ff66b2; /* Rosado al pasar el mouse */
+  color: #fff; /* Texto blanco al pasar el mouse */
+}
+
+.btn-rounded {
+  background-color: #66b2ff; /* Celeste */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px; /* Forma redondeada */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-rounded:hover {
+  background-color: #ff66b2; /* Rosado al pasar el mouse */
+}
+
+/* Estilos para las barras */
+.bar {
+  width: 100%;
+  height: 10px;
+  background-color: #66b2ff; /* Celeste */
+  margin-top: 20px;
+}
+
+.bar-dashed {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #66b2ff 50%, transparent 50%); /* Celeste */
+  background-size: 20px 100%;
+  margin-top: 20px;
+}
+
+.bar-rounded {
+  width: 100%;
+  height: 10px;
+  background-color: #ff66b2; /* Rosado */
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Estilos para los marcos */
+.frame {
+  padding: 20px;
+  border: 2px solid #66b2ff; /* Celeste */
+  margin-top: 20px;
+}
+
+.frame-rounded {
+  padding: 20px;
+  border: 2px solid #ff66b2; /* Rosado */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.frame-shadow {
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(102, 178, 255, 0.5); /* Sombra celeste */
+  margin-top: 20px;
+}
+
+
